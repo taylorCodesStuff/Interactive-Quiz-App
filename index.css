@@ -1,0 +1,161 @@
+
+body {
+  /* background: url('https://inokean.ru/preview/800/aW1hZ2VzL3BhY2lmaWMvMy5qcGc=') fixed; */
+  background: url('https://tasteofthetopend.files.wordpress.com/2013/03/pitcairn-island-006.jpg') fixed;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Metrophobic', sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+label {
+  display: flex;
+  /* border: 1px solid black; */
+  padding: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+header {
+  display: block;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+ul, .quizStart {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.startButton {
+  padding: 20px;
+  border: none;
+  background-color: #2ca0a0;
+   /* #4256f4; */
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 40px;
+  /* width: 100%; */
+}
+
+.next-question-btn, .submitButton, .restart-btn {
+  padding: 20px;
+  border: none;
+  background-color: #2ca0a0;
+   /* #4256f4; */
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 40px;
+  width: 100%;
+}
+
+/* .feedback-display button {
+  margin: 1em auto;
+  width: 100%;
+} */
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 10%;
+  min-height: 500px;
+  border: none;
+}
+
+.question-text {
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+input[type=radio] {
+  flex: 0 0 auto;
+  margin-right: 15px;
+}
+
+label:nth-child(2) {
+  /* background-color: #74bbdb; */
+  background-color: #0d7da3;
+}
+
+label:nth-child(3) {
+  /* background-color: #3ba0ce; */
+  /* background-color: #397a8e; */
+  /* background-color: #39558e; */
+  /* background-color: #052f84; */
+  background-color: #044a84;
+}
+
+label:nth-child(4) {
+  background-color: #2084b2;
+}
+
+label:nth-child(5) {
+  /* background-color: #99d4ef; */
+  background-color: #216382;
+}
+
+.feedback-display {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+  /* border: 1px solid black; */
+  /* background: linear-gradient(to bottom, rgb(3, 119, 185)0%, rgb(9, 165, 238) 100%); */
+  background-color: rgb(4, 97, 151);
+  max-width: 850px;
+}
+
+.feedback-display p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.feedback-display button {
+  width: 100%;
+}
+
+@media only screen and (min-width: 360px) {
+
+  h3 {
+    font-size: 2em;
+    margin-top: 3em;
+  }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+  .feedback-display p {
+    /* width: 100%; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  form {
+    padding: 4em 7em 0;
+  }
+
+}
